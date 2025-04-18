@@ -1,0 +1,39 @@
+/* src/MoodSelector.css */
+.mood-container {
+  text-align: center;
+  padding: 2rem;
+  background: #fdf6f0;
+  border-radius: 1rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.emoji-btn {
+  font-size: 2.5rem;
+  background: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.1);
+}
+
+.mood-message {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #555;
+}
