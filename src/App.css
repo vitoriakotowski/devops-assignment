@@ -12,3 +12,8 @@
   color: #e07a5f;
   margin-bottom: 1rem;
 }
+
+body,
+html {
+  overflow-x: hidden;
+}
