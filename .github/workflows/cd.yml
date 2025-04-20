@@ -72,5 +72,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          push: true
+          push: false
           tags: vitoriakotowski/devops-assigment:latest
