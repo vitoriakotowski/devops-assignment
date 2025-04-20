@@ -70,6 +70,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./build
-          push: false
+          context: .
+          file: ./Dockerfile
+          push: true
           tags: yourdockeruser/your-react-app:latest
