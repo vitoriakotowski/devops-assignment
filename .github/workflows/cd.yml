@@ -71,5 +71,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./build
-          push: true
+          push: false
           tags: yourdockeruser/your-react-app:latest
