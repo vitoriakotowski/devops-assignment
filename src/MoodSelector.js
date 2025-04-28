@@ -32,7 +32,7 @@ export default function MoodSelector() {
 
   return (
     <div className={`mood-container ${darkMode ? "dark" : ""}`}>
-      {showConfetti && <Confetti recycle={false} numberOfPieces={300} />}
+      {showConfetti && <Confetti recycle={false} numberOfPieces={400} />}
       <div className="toggle">
         <label className="switch">
           <input
