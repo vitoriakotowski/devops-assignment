@@ -48,6 +48,10 @@ docker:
         push: false
         tags: vitoriakotowski/devops-assigment:latest
 
+discord:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: action/checkout@v4
     - name: Discord Commits
       uses: Sniddl/discord-commits@v1.6
       with:
