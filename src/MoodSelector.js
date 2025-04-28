@@ -25,7 +25,7 @@ export default function MoodSelector() {
 
   useEffect(() => {
     if (showConfetti) {
-      const timeout = setTimeout(() => setShowConfetti(false), 5000);
+      const timeout = setTimeout(() => setShowConfetti(false), 3000);
       return () => clearTimeout(timeout);
     }
   }, [showConfetti]);
